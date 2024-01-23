@@ -19,7 +19,7 @@ def generate_qr_code(url, filename):
     
 #Streamlit easy app web
 st.set_page_config(page_title = "QR Code Generator", layout="centered")
-st.image("images/supports.JPG", use_column_width=True)
+st.image("qr_generator/images/supports.JPG", use_column_width=True)
 st.title("QR Code Generator")
 url = st.text_input("Enter the url")
 
